@@ -12,6 +12,21 @@
 #  - olive oil - 1/2 cup
 #  - agave - 1/4 cup
 # All of the ingredients should be symbols and the amounts should be strings. Remember that symbols start with a colon and be sure to sub underscores for spaces.
+def perfect_10_recipe
+  perfect_10_recipe = {
+    "almond flour"=>"2 cups", 
+    "gluten freewhole oats"=>"1 cup",
+    "kosher salt"=>"1/2 teaspoon",
+    "baking powder"=>"1/2 teaspoon",
+    "baking soda"=>"1/4 teaspoon", 
+    "slivered almonds , lightly toasted"=>"1/4 cup",
+    "mini dark chocolate chips"=>"3/4 cup",
+    "olive oil"=>"1/2 cup",
+    "agave"=>"1/4 cup"}
+puts perfect_10_recipe
+end
+perfect_10_recipe
+
 
 #2. Write a method that simply returns (not puts) your perfect_10 hash
 def recipe_ingredients(perfect_10_recipe)
@@ -19,6 +34,7 @@ end
 
 #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
 def amount_of_chocolate_chips(perfect_10_recipe)
+  
 end
 
 #3: Use `puts` to print out every ingredient and amount in the hash by iterating through the collection. You'll want to use the `each` method.
